@@ -38,6 +38,9 @@
 }
 
 @media screen and (max-width: 575px) {
+  .main-nav {
+    height: 236px;
+  }
 }
 
 /* PRODUCT CARDS  */
