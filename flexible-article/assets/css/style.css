@@ -2,8 +2,28 @@
   background-color: #fbf7e3;
   color: #5f2205;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  padding: 20px;
 }
 
 .article__title {
   font-weight: bold;
+}
+
+.article__img {
+  margin-right: 20px;
+}
+
+.article__content {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+  .article {
+    flex-wrap: wrap;
+  }
+  .article__img {
+    order: 1;
+  }
 }
