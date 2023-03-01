@@ -1,0 +1,9 @@
+.article {
+  background-color: #fbf7e3;
+  color: #5f2205;
+  font-family: "Roboto", sans-serif;
+}
+
+.article__title {
+  font-weight: bold;
+}
